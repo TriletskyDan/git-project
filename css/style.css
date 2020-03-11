@@ -1,0 +1,66 @@
+body{
+  background-image: url(../images/triangle.jpg);
+}
+h1{
+  text-align: center;
+}
+table{
+  border-collapse: collapse;
+  margin: 50px auto;
+}
+
+td {
+  border: 2px solid black;
+  width: 33.33%;
+  height: 50px; 
+  text-align: center;
+}
+.main{
+  margin: 0 auto;
+}
+  .center{
+text-align: center;
+  }
+.menu{
+   background-color: #FF99CC;
+  font-size: 30px;
+  color: black;
+  font-family: 'Calibri';
+}
+.height_200{
+  height: 200px;
+  width: 33.33%;
+}
+
+.w_28{
+  width: 28%;
+  height: 50px;
+}
+.w_40{
+  width: 40%;
+}
+
+.w_60{
+  width: 60%;
+}
+
+.h_200{
+  height: 200px;
+  width: 33.33%
+}
+.w_90{
+  width: 90%;
+}
+.w_80{
+ width: 80%;
+}
+.w_75{
+  width: 75%;
+}
+.last-td{
+  padding: 20px
+}
+caption{
+  color: black;
+  font-size: 20px;
+}

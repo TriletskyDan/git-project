@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../css/style.css">
+  <title>Table2</title>
+</head>
+<body>
+  <h1>Таблица 2</h1>
+   <div class="main">
+      <p class="center">
+  <a href="table1.html" class="menu">Таблица1</a><br><br>
+    <a href="../index.html" class="menu">Главная</a>
+  </p>
+</div>
+  <table class="w_90">
+    <caption><b>Таблица №2,Главная</b></caption>
+    <tr>
+      <td colspan="2" class="w_40">1-2</td>
+      <td class="w_60">3</td>
+    </tr>
+    <tr >
+      <td class="w_28">4</td>
+      <td colspan="2" rowspan="2" >
+        <table class="w_80">
+          <caption><b>Таблица №2,Дочерняя</b></caption>
+          <tr>
+            <td> 1 </td>
+            <td rowspan="3" >2-5-8</td>
+            <td rowspan="2">3-6</td>
+          </tr>
+          <tr>
+           <td rowspan="2" class="height_200" >4-7</td>
+         </tr>
+         <tr>
+           <td>9</td>
+         </tr>
+       </table>
+     </td>
+   </tr>
+   <tr>
+    <td class="w_28">7</td>
+  </tr>
+</table>
+</body>
+</html>
